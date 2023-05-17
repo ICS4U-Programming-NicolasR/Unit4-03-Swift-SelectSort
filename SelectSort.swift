@@ -13,11 +13,9 @@ func insertSort(_ array: [Int]) -> [Int] {
     var arraySorted = array
     for counter in 0..<arraySorted.count {
         var minIndex = counter
-        for counter2 in counter + 1..<arraySorted.count {
-            // set the minimum index to be equal to the true minimum number
-            if arraySorted[counter2] < arraySorted[minIndex] {
-                minIndex = counter2
-            }
+        for counter2 in counter + 1..<arraySorted.count where 
+        arraySorted[counter2] < arraySorted[minIndex] {
+            minIndex = counter2
         }
         // swap the two indexes
         arraySorted.swapAt(counter, minIndex)
