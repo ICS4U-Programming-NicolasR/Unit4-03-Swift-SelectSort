@@ -1,0 +1,9 @@
+Invalid input: 110.4
+Your array sorted is [15, 20, 24, 270, 334, 355, 355, 409, 456]
+Your array sorted is [21, 64, 180, 219, 236, 368, 382, 395, 428, 462]
+Your array sorted is [32, 72, 78, 98, 114, 203, 380, 436, 468, 488]
+Invalid input:Empty value
+Your array sorted is [10, 38, 93, 269, 283, 298, 381, 388, 451, 489]
+Invalid input: hello
+Your array sorted is [200, 216, 243, 249, 330, 347, 381, 392, 413, 420]
+Your array sorted is [-99, 145, 249, 269, 282, 289, 332, 400, 445, 497]
