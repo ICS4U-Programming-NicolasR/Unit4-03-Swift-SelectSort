@@ -13,7 +13,7 @@ func insertSort(_ array: [Int]) -> [Int] {
     var arraySorted = array
     for counter in 0..<arraySorted.count {
         var minIndex = counter
-        for counter2 in counter + 1..<arraySorted.count where 
+        for counter2 in counter + 1..<arraySorted.count where
         arraySorted[counter2] < arraySorted[minIndex] {
             minIndex = counter2
         }
